@@ -6,10 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/CyberFinder/Scenes/BossScene.unity
+    path: Assets/CyberFinder/Scenes/Mission1/M1BossScene.unity
     guid: ca3da8e8242d3a64f9e841e258c7efec
   - enabled: 1
-    path: Assets/CyberFinder/Scenes/StreetScene.unity
+    path: Assets/CyberFinder/Scenes/Mission1/M1StreetScene.unity
     guid: 18d3393fbf663a34888d75008d2a0cd7
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 9c09148483635e54eb2d3e216c86cf4b,
