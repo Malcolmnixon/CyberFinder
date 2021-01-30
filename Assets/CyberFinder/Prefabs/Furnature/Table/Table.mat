@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Walls
+  m_Name: Table
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _NORMALMAP _PARALLAXMAP
   m_LightmapFlags: 4
@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 74eb96b366e21ef4d895c63e128ae5f1, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3403f6d1e7657c549a78d31a67700554, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -40,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: b188c67056e107443b6f0979af076f7d, type: 3}
+        m_Texture: {fileID: 2800000, guid: 82c502549ae2f2b4a8aa4ec6d4c07589, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -52,7 +52,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
-        m_Texture: {fileID: 2800000, guid: 8a9c0a537d777a342abb1c2ecd44b9a6, type: 3}
+        m_Texture: {fileID: 2800000, guid: d8124911b985cc7488a1e768810b220a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -61,9 +61,9 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0.5
+    - _Glossiness: 0.37
     - _GlossyReflections: 1
-    - _Metallic: 0
+    - _Metallic: 0.069
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
@@ -73,5 +73,5 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 0.9490196, b: 0.89411765, a: 1}
+    - _Color: {r: 0.8679245, g: 0.79013884, b: 0.79013884, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

@@ -775,7 +775,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 4
     m_ManualUV: 0
     elementGroup: -1
     m_TextureGroup: -1
@@ -1302,7 +1302,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 4
     m_ManualUV: 0
     elementGroup: -1
     m_TextureGroup: -1
@@ -1523,7 +1523,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 4
     m_ManualUV: 0
     elementGroup: -1
     m_TextureGroup: -1
@@ -1880,7 +1880,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 4
     m_ManualUV: 0
     elementGroup: -1
     m_TextureGroup: -1
@@ -2186,7 +2186,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 5
     m_ManualUV: 0
     elementGroup: -1
     m_TextureGroup: -1
@@ -2390,7 +2390,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 4
     m_ManualUV: 0
     elementGroup: -1
     m_TextureGroup: 8
@@ -2407,7 +2407,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 4
     m_ManualUV: 0
     elementGroup: -1
     m_TextureGroup: 8
@@ -6274,10 +6274,10 @@ MonoBehaviour:
   - {x: -1, y: 0, z: 0, w: -1}
   - {x: -1, y: 0, z: 0, w: -1}
   - {x: -1, y: 0, z: 0, w: -1}
-  - {x: 0.987689, y: 0, z: 0.1564306, w: -1}
-  - {x: 0.987689, y: 0, z: 0.1564306, w: -1}
-  - {x: 0.987689, y: 0, z: 0.1564306, w: -1}
-  - {x: 0.987689, y: 0, z: 0.1564306, w: -1}
+  - {x: 0, y: 0, z: 1, w: -1}
+  - {x: 0, y: 0, z: 1, w: -1}
+  - {x: 0, y: 0, z: 1, w: -1}
+  - {x: 0, y: 0, z: 1, w: -1}
   - {x: 0, y: 0, z: 1, w: -1}
   - {x: 0, y: 0, z: 1, w: -1}
   - {x: 0, y: 0, z: 1, w: -1}
@@ -6369,6 +6369,8 @@ MeshRenderer:
   - {fileID: 2100000, guid: ce800ffe0f8304c4dbb3137b6b7fbdec, type: 2}
   - {fileID: 2100000, guid: 5d8a94e1293447141869a77763c33f9a, type: 2}
   - {fileID: 2100000, guid: 2f10c3a6b546da2488708d0460376ef1, type: 2}
+  - {fileID: 2100000, guid: 0e990ef2cbdf75844b123263efaa2c24, type: 2}
+  - {fileID: 2100000, guid: 63b417ccd99032047a99a64f98f47b8e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6622,6 +6624,46 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 499383123965150816, guid: d0638059467b8164986ace56d95f3ba3,
+        type: 3}
+      propertyPath: m_Tangents.Array.data[20].x
+      value: 0.000000059604634
+      objectReference: {fileID: 0}
+    - target: {fileID: 499383123965150816, guid: d0638059467b8164986ace56d95f3ba3,
+        type: 3}
+      propertyPath: m_Tangents.Array.data[20].z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 499383123965150816, guid: d0638059467b8164986ace56d95f3ba3,
+        type: 3}
+      propertyPath: m_Tangents.Array.data[21].x
+      value: 0.000000059604634
+      objectReference: {fileID: 0}
+    - target: {fileID: 499383123965150816, guid: d0638059467b8164986ace56d95f3ba3,
+        type: 3}
+      propertyPath: m_Tangents.Array.data[21].z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 499383123965150816, guid: d0638059467b8164986ace56d95f3ba3,
+        type: 3}
+      propertyPath: m_Tangents.Array.data[22].x
+      value: 0.000000059604634
+      objectReference: {fileID: 0}
+    - target: {fileID: 499383123965150816, guid: d0638059467b8164986ace56d95f3ba3,
+        type: 3}
+      propertyPath: m_Tangents.Array.data[22].z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 499383123965150816, guid: d0638059467b8164986ace56d95f3ba3,
+        type: 3}
+      propertyPath: m_Tangents.Array.data[23].x
+      value: 0.000000059604634
+      objectReference: {fileID: 0}
+    - target: {fileID: 499383123965150816, guid: d0638059467b8164986ace56d95f3ba3,
+        type: 3}
+      propertyPath: m_Tangents.Array.data[23].z
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2723524167748214130, guid: d0638059467b8164986ace56d95f3ba3,
         type: 3}
