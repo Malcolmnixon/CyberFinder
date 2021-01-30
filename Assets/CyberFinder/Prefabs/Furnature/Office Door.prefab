@@ -264,10 +264,10 @@ MonoBehaviour:
   - {x: -0.000000059604634, y: 0, z: 1, w: -1}
   - {x: -0.000000059604634, y: 0, z: 1, w: -1}
   - {x: -0.000000059604634, y: 0, z: 1, w: -1}
-  - {x: -0.9876883, y: 0, z: 0.15643476, w: -1}
-  - {x: -0.9876883, y: 0, z: 0.15643476, w: -1}
-  - {x: -0.9876883, y: 0, z: 0.15643476, w: -1}
-  - {x: -0.98768836, y: 0, z: 0.15643477, w: -1}
+  - {x: 0.000000059604634, y: 0, z: 1, w: -1}
+  - {x: 0.000000059604634, y: 0, z: 1, w: -1}
+  - {x: 0.000000059604634, y: 0, z: 1, w: -1}
+  - {x: 0.000000059604634, y: 0, z: 1, w: -1}
   m_Colors: []
   m_UnwrapParameters:
     m_HardAngle: 88
@@ -299,7 +299,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 735c72da042003049a1682123cecc84d, type: 2}
+  - {fileID: 2100000, guid: 373a401d768b3a04d9ab5153715e59cb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
