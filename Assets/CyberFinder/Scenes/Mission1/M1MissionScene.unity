@@ -9804,7 +9804,8 @@ MonoBehaviour:
   - {fileID: 1312479709}
   wayPointDwell: 5
   searchTimeout: 15
-  visionRange: 10
+  visionRange: 7
+  fieldOfView: 50
   attackRange: 1
   patrolSpeed: 1
   pursueSpeed: 2.2
@@ -9973,7 +9974,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2453ec6adbcc304caaad95ba6b2ae0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: M1BossScene
+  sceneName: M1ToMissionScene
   useFade: 1
 --- !u!1001 &1812641585
 PrefabInstance:

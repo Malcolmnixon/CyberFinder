@@ -18,8 +18,11 @@ EditorBuildSettings:
     path: Assets/CyberFinder/Scenes/Mission1/M1FromMissionScene.unity
     guid: 278755d4660e7cf4bba03f75162d3b6f
   - enabled: 1
-    path: Assets/CyberFinder/Scenes/Mission2/M2BossScene.unity
+    path: Assets/CyberFinder/Scenes/Mission1/M1DoneScene.unity
     guid: 6bbe68a99f3fc1947ac8b4462917d9e6
+  - enabled: 1
+    path: Assets/CyberFinder/Scenes/Mission1/M1City.unity
+    guid: adf5689ebb64cac4ba574a70cf19e031
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 9c09148483635e54eb2d3e216c86cf4b,
       type: 2}

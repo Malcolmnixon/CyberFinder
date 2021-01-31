@@ -51,6 +51,9 @@ public class GuardController : MonoBehaviour
     [Tooltip("Range of the guards vision")]
     public float visionRange = 10F;
 
+    [Tooltip("Guard field of view")]
+    public float fieldOfView = 70F;
+
     [Tooltip("Range where the guard can attack")]
     public float attackRange = 1F;
 
@@ -103,7 +106,7 @@ public class GuardController : MonoBehaviour
         var inAttackRange = playerDistance < attackRange;
 
         // Evaluate if we are facing player
-        var facingPlayer = Vector3.Angle(transform.forward, toPlayer) < 70F;
+        var facingPlayer = Vector3.Angle(transform.forward, toPlayer) < fieldOfView;
 
         // Evaluate if we can see the player
         var canSeePlayer = inAttackRange;
