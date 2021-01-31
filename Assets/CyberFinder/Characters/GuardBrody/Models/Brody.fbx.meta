@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7c525c92b4416174f9affb7fd96a73cd
+guid: f06d7500137c61543bc0a6668652eb96
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable:
@@ -10,13 +10,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: GuardJoe_color
-    second: {fileID: 2800000, guid: ffce1eaddea5d1144b60e91cd11efb37, type: 3}
+      name: GuardBrody_color
+    second: {fileID: 2800000, guid: c49b5e9c7cb477e45abd112384a24680, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: GuardJoe_low_nm
-    second: {fileID: 2800000, guid: 4a05e133a794d0045af1b9af964a64ee, type: 3}
+      name: GuardBrody_low_nm
+    second: {fileID: 2800000, guid: fbfc3b8ab96fd1f4cb5e4610ef43a16a, type: 3}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -54,8 +54,8 @@ ModelImporter:
     sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importCameras: 0
+    importLights: 0
     fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
