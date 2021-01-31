@@ -185,6 +185,9 @@ public class GuardController : MonoBehaviour
                     _animator.SetBool("isAttacking", true);
                     _state = State.PlayerAttack;
                     _stateTime = 0F;
+
+                    // Report attacking
+                    beginAttackEvent?.Invoke();
                 }
 
                 // Still tracking the player
