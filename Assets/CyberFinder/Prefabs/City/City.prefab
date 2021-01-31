@@ -26,7 +26,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 2234241209721359915}
   m_Father: {fileID: 6086665692533921047}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -635,7 +636,7 @@ GameObject:
   - component: {fileID: 8706080031060572}
   - component: {fileID: 3043091284633743655}
   m_Layer: 0
-  m_Name: Quad
+  m_Name: Jade Tea Holdings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -648,12 +649,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7642655205358891286}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 48.559998, y: 2.79, z: -24.9}
-  m_LocalScale: {x: 5.12, y: 1.28, z: 1}
+  m_LocalScale: {x: 5.1199994, y: 1.28, z: 1}
   m_Children: []
-  m_Father: {fileID: 6086665692533921047}
-  m_RootOrder: 7
+  m_Father: {fileID: 2792561046173538776}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!33 &311639820855727897
 MeshFilter:
@@ -2160,7 +2161,6 @@ Transform:
   - {fileID: 8416808226753501695}
   - {fileID: 8364102821082361465}
   - {fileID: 2792561046173538776}
-  - {fileID: 2234241209721359915}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
