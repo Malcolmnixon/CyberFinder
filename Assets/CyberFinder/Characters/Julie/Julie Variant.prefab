@@ -10,7 +10,7 @@ Animator:
   m_GameObject: {fileID: 1336690500568771831}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ccfdd842f6e28f44e878487499b0958b, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -49,6 +49,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eecd9982022bb0a4f8bdf1c4268eab63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &4598462192880703691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336690500568771831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab146fb5e9916c84a94772fc59ae9b30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minTime: 0
+  maxTime: 10
+  active: 1
+  repeat: 0
+  onRandom:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8156354759536797834}
+        m_MethodName: StartTimer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &8156354759536797834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87,36 +117,6 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &4598462192880703691
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1336690500568771831}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab146fb5e9916c84a94772fc59ae9b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  minTime: 0
-  maxTime: 10
-  active: 1
-  repeat: 0
-  onRandom:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 8156354759536797834}
-        m_MethodName: StartTimer
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1001 &2183552287166124454
 PrefabInstance:
   m_ObjectHideFlags: 0
